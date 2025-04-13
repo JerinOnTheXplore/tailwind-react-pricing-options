@@ -40,9 +40,36 @@
       ],
       "image": "https://i.ibb.co.com/j9tpdyvh/th-1.jpg"
     },
+    {
+        "id": "plan_004",
+        "name": "Cronometer Free",
+        "price": "$0/month",
+        "description": "Comprehensive food and biometrics tracking.",
+        "features": [
+          "Accurate nutrition database",
+          "Track up to 82 micronutrients",
+          "Biometrics logging",
+          "Mobile & web access"
+        ],
+        "image": "https://i.ibb.co.com/d0gzSfpk/th-3.jpg"
+      },
+      {
+        "id": "plan_005",
+        "name": "Cronometer Gold",
+        "price": "$8.99/month or $54.99/year",
+        "description": "Advanced tools and insights for power users.",
+        "features": [
+          "Custom charts & reports",
+          "Recipe sharing & timestamps",
+          "Nutrition scores",
+          "No ads",
+          "Priority support"
+        ],
+        "image": "https://i.ibb.co.com/Xrdn3KQZ/th-6.jpg"
+      },
     
     {
-      "id": "plan_004",
+      "id": "plan_006",
       "name": "Yazio Pro",
       "price": "$19.99/month or $59.99/year",
       "description": "Personalized meal planning and advanced nutrition tracking.",

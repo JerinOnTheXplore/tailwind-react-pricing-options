@@ -35,7 +35,8 @@ const Navbar = () => {
         key={route.id}
         ></Link>)  
     return (
-        <nav className='flex justify-between mx-10 mt-10'>
+        <div className='sticky top-0 z-50'>
+            <nav className='flex justify-between px-10 py-10 bg-slate-200 border-b-2 border-slate-300'>
             <span className='flex items-center'onClick={()=>setOpen(!open)}>
                 {
                     open?<SquareX size={25} className='text-blue-600 md:hidden'></SquareX>:<Menu size={24} className='md:hidden text-blue-600'></Menu>
@@ -68,6 +69,7 @@ const Navbar = () => {
           </ul>   */}
           <button className='text-2xl text-blue-600 font-normal'>Sign In</button>
         </nav>
+        </div>
     );
 };
 
