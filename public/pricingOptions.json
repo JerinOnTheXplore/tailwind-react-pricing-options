@@ -1,0 +1,60 @@
+[
+    {
+      "id": "plan_001",
+      "name": "MyFitnessPal Free",
+      "price": "$0/month",
+      "description": "Basic nutrition and fitness tracking with essential tools.",
+      "features": [
+        "Track calories and macronutrients",
+        "Log exercise and steps",
+        "Community support",
+        "Limited insights"
+      ],
+      "image": "https://i.ibb.co.com/vxHvJ1PB/th.jpg"
+    },
+    {
+      "id": "plan_002",
+      "name": "MyFitnessPal Premium",
+      "price": "$19.99/month or $79.99/year",
+      "description": "Unlock advanced features and detailed nutritional insights.",
+      "features": [
+        "Custom macro and calorie goals",
+        "Meal plans and recipes",
+        "Barcode scanner and food analysis",
+        "Ad-free experience",
+        "Priority support"
+      ],
+      "image": "https://i.ibb.co.com/WWBWK24K/th-5.jpg"
+    },
+    {
+      "id": "plan_003",
+      "name": "Noom",
+      "price": "From $70/month (varies by plan)",
+      "description": "Behavioral weight loss program with coaching support.",
+      "features": [
+        "Personalized coaching",
+        "Behavioral psychology curriculum",
+        "Daily interactive lessons",
+        "Meal logging and tracking",
+        "Progress tracking and insights"
+      ],
+      "image": "https://i.ibb.co.com/j9tpdyvh/th-1.jpg"
+    },
+    
+    {
+      "id": "plan_004",
+      "name": "Yazio Pro",
+      "price": "$19.99/month or $59.99/year",
+      "description": "Personalized meal planning and advanced nutrition tracking.",
+      "features": [
+        "Personalized meal plans",
+        "Recipes with nutrition facts",
+        "Intermittent fasting support",
+        "Nutrient and vitamin tracking",
+        "Body progress tracking",
+        "No ads"
+      ],
+      "image": "https://i.ibb.co.com/DDNHCF3d/th-4.jpg"
+    }
+  ]
+  

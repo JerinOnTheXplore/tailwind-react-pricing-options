@@ -38,7 +38,7 @@ const Navbar = () => {
         <nav className='flex justify-between mx-10 mt-10'>
             <span className='flex items-center'onClick={()=>setOpen(!open)}>
                 {
-                    open?<SquareX size={25} className='text-blue-600'></SquareX>:<Menu size={24} className='md:hidden text-blue-600'></Menu>
+                    open?<SquareX size={25} className='text-blue-600 md:hidden'></SquareX>:<Menu size={24} className='md:hidden text-blue-600'></Menu>
                 }
                 <ul className={`md:hidden absolute duration-500 
                 ${open?'top-8 left-20':'-top-64 left-20'}
@@ -49,7 +49,7 @@ const Navbar = () => {
                 </ul>
             <h1 className='ml-4 text-2xl text-blue-600 font-semibold'>My Navbar</h1>
             </span>
-          <ul className='md:flex hidden'>
+          <ul className='md:flex text-2xl text-gray-600 font-normal items-center hidden'>
             {
               links
             }
